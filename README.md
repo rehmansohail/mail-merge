@@ -1,0 +1,2 @@
+given a letter with a placeholder name in Input/Letters and names of a bunch of people in Input/Names  
+I created a python script which will add the name of each person in the letter and will save the letter in Output folder  

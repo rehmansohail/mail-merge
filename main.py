@@ -11,7 +11,7 @@ for i in range(len(names)):
         names2.append(names[i])
         continue
     names2.append(names[i][:-1])
-print(names2)            #list with /n removed
+# print(names2)            #list with /n removed
 
 letter_file = open("./Input/Letters/starting_letter.txt")
 letter = letter_file.read()
@@ -22,9 +22,3 @@ for name in names2:
     file.write(content)
     
 
-
-
-    
-#Hint1: This method will help you: https://www.w3schools.com/python/ref_file_readlines.asp
-    #Hint2: This method will also help you: https://www.w3schools.com/python/ref_string_replace.asp
-        #Hint3: THis method will help you: https://www.w3schools.com/python/ref_string_strip.asp
